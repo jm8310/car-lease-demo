@@ -105,15 +105,15 @@ function evaluate_transactions(req, res)
         for(let i = 0; i < result.transactions.length; i++)
     {
             let transaction = result.transactions[i];
-            let barcode = transaction.payload.match(/[A-Z]{2}[0-9]{7}/g);
-            if(JSON.stringify(transaction).indexOf(user_id) === -1 && validV5cs.indexOf(barcode) === -1)
+            let v5cID = transaction.payload.match(/[A-Z]{2}[0-9]{7}/g);
+            if(JSON.stringify(transaction).indexOf(user_id) === -1 && validV5cs.indexOf(v5cID) === -1)
         {
                 result.transactions.splice(i, 1);
                 i--;
             }
-            else if (validV5cs.indexOf(barcode) === -1)
+            else if (validV5cs.indexOf(v5cID) === -1)
         {
-                validV5cs += '['+barcode+']';
+                validV5cs += '['+v5cID+']';
             }
         }
     }
