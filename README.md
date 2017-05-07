@@ -51,7 +51,7 @@ The scenario goes through the lifecycle of a mobile which has the following stag
  4. Manufacturer transfers the Product  to dealership to be sold.
  5. Dealership transfers the Product to a Customer.
  6. Manufacturer transfers the Product to Customer.
- 7. Customer returns the mobile in case of Buyback/Return/Exchange.
+ 7. Customer returns the Product in case of Buyback/Return/Exchange.
  8. Scrap merchant scraps the Product.
 
 ##Component model##
