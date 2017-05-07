@@ -24,9 +24,9 @@ let read = function (req,res,next,usersToSecurityContext)
 
     return Util.queryChaincode(securityContext, 'get_vehicle_details', [ barcode ])
     .then(function(data) {
-        let mobile = JSON.parse(data.toString());
+        let car = JSON.parse(data.toString());
         let result = {};
-        result.vehicle = mobile;
+        result.vehicle = car;
         tracing.create('EXIT', 'GET blockchain/assets/vehicles/vehicle/'+barcode, result);
         res.send(result.vehicle);
     })

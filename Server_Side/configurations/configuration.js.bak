@@ -58,70 +58,90 @@ config.users = [
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Apple',
+        enrollmentID: 'Toyota',
         attributes: [
             {name: 'role', value: 'manufacturer'},
-            {name: 'username', value: 'Apple'}
+            {name: 'username', value: 'Toyota'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Samsung',
+        enrollmentID: 'Alfa_Romeo',
         attributes: [
             {name: 'role', value: 'manufacturer'},
-            {name: 'username', value: 'Samsung'}
+            {name: 'username', value: 'Alfa_Romeo'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Motorola',
+        enrollmentID: 'Jaguar_Land_Rover',
         attributes: [
             {name: 'role', value: 'manufacturer'},
-            {name: 'username', value: 'Motorola'}
+            {name: 'username', value: 'Jaguar_Land_Rover'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'BestBuy',
+        enrollmentID: 'Beechvale_Group',
         attributes: [
-            {name: 'role', value: 'dealer'},
-            {name: 'username', value: 'BestBuy'}
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'Beechvale_Group'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'MetroPcs',
+        enrollmentID: 'Milescape',
         attributes: [
-            {name: 'role', value: 'dealer'},
-            {name: 'username', value: 'MetroPcs'}
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'Milescape'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Target',
+        enrollmentID: 'Viewers_Alfa_Romeo',
         attributes: [
-            {name: 'role', value: 'dealer'},
-            {name: 'username', value: 'Target'}
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'Viewers_Alfa_Romeo'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Walmart',
+        enrollmentID: 'Joe_Payne',
         attributes: [
-            {name: 'role', value: 'dealer'},
-            {name: 'username', value: 'Walmart'}
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'Joe_Payne'}
+        ],
+        registrar: {},
+        roles: [],
+        affiliation: 'institution_a'
+    },
+    {
+        enrollmentID: 'Andrew_Hurt',
+        attributes: [
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'Andrew_Hurt'}
+        ],
+        registrar: {},
+        roles: [],
+        affiliation: 'institution_a'
+    },
+    {
+        enrollmentID: 'Anthony_O_Dowd',
+        attributes: [
+            {name: 'role', value: 'private'},
+            {name: 'username', value: 'Anthony_O_Dowd'}
         ],
         registrar: {},
         roles: [],
@@ -138,20 +158,20 @@ config.users = [
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Jaladhi',
+        enrollmentID: 'Every_Car_Leasing',
         attributes: [
-            {name: 'role', value: 'customer'},
-            {name: 'username', value: 'Jaladhi'}
+            {name: 'role', value: 'lease_company'},
+            {name: 'username', value: 'Every_Car_Leasing'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Deepak',
+        enrollmentID: 'Regionwide_Vehicle_Contracts',
         attributes: [
-            {name: 'role', value: 'customer'},
-            {name: 'username', value: 'Deepak'}
+            {name: 'role', value: 'lease_company'},
+            {name: 'username', value: 'Regionwide_Vehicle_Contracts'}
         ],
         registrar: {},
         roles: [],

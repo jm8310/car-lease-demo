@@ -30,6 +30,11 @@ var leasees = {};
 leasees.read = leaseesFile.read;
 exports.leasees = leasees;
 
+var customersFile = require(__dirname+'/customers/customers.js');
+var customers = {};
+customers.read = customersFile.read;
+exports.customers = customers;
+
 var scrap_merchantsFile = require(__dirname+'/scrap_merchants/scrap_merchants.js');
 var scrap_merchants = {};
 scrap_merchants.read = scrap_merchantsFile.read;

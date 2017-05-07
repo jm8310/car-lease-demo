@@ -15,8 +15,8 @@ let participants_info = {
     ],
     'manufacturers': [
         {
-            'name': 'Motorola',
-            'identity': 'Motorola',
+            'name': 'Alfa Romeo',
+            'identity': 'Alfa_Romeo',
             'password': 'fGMMQqWEPxVy',
             'address_line_1': '25 St James\'s Street',
             'address_line_2': 'London',
@@ -24,8 +24,8 @@ let participants_info = {
             'postcode': 'SW1A 1HA'
         },
         {
-            'name': 'Apple',
-            'identity': 'Apple',
+            'name': 'Toyota',
+            'identity': 'Toyota',
             'password': 'hTpPFxiOwWgS',
             'address_line_1': 'Burnaston',
             'address_line_2': 'Derby',
@@ -33,8 +33,8 @@ let participants_info = {
             'postcode': 'DE1 9TA'
         },
         {
-            'name': 'Samsung',
-            'identity': 'Samsung',
+            'name': 'Jaguar Land Rover',
+            'identity': 'Jaguar_Land_Rover',
             'password': 'nNRyjPKrSpUb',
             'address_line_1': 'Abbey Road',
             'address_line_2': 'Coventry',
@@ -44,24 +44,24 @@ let participants_info = {
     ],
     'dealerships': [
         {
-            'name': 'BestBuy',
-            'identity': 'BestBuy',
+            'name': 'Beechvale Group',
+            'identity': 'Beechvale_Group',
             'password': 'TvNWKDgWTrfH',
             'address_line_1': '84 Hull Road',
             'address_line_2': 'Derby',
             'postcode': 'DE75 4PJ'
         },
         {
-            'name': 'Target',
-            'identity': 'Target',
+            'name': 'Milescape',
+            'identity': 'Milescape',
             'password': 'cGJslZqjNjPK',
             'address_line_1': 'Imperial Yard',
             'address_line_2': 'Derby',
             'postcode': 'DE94 8HY'
         },
         {
-            'name': 'Walmart',
-            'identity': 'Walmart',
+            'name': 'Viewers Alfa Romeo',
+            'identity': 'Viewers_Alfa_Romeo',
             'password': 'VWjFucyEIzTn',
             'address_line_1': '25 Lower Lens Street',
             'address_line_2': 'Penylan',

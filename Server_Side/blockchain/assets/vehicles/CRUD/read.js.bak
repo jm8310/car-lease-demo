@@ -9,7 +9,7 @@ let Util = require(__dirname+'/../../../../tools/utils/util');
 let user_id;
 let securityContext;
 
-function get_all_mobiles(req, res, next, usersToSecurityContext)
+function get_all_cars(req, res, next, usersToSecurityContext)
 {
 
     tracing.create('ENTER', 'GET blockchain/assets/vehicles', {});
@@ -24,11 +24,11 @@ function get_all_mobiles(req, res, next, usersToSecurityContext)
 
     return Util.queryChaincode(securityContext, 'get_vehicles', [])
     .then(function(data) {
-        let mobiles = JSON.parse(data.toString());
-        console.log(mobiles);
-        mobiles.forEach(function(mobile) {
-            tracing.create('INFO', 'GET blockchain/assets/vehicles', JSON.stringify(mobile));
-            res.write(JSON.stringify(mobile)+'&&');
+        let cars = JSON.parse(data.toString());
+        console.log(cars);
+        cars.forEach(function(car) {
+            tracing.create('INFO', 'GET blockchain/assets/vehicles', JSON.stringify(car));
+            res.write(JSON.stringify(car)+'&&');
         });
         tracing.create('EXIT', 'GET blockchain/assets/vehicles', {});
         res.end('');
@@ -43,4 +43,4 @@ function get_all_mobiles(req, res, next, usersToSecurityContext)
     });
 }
 
-exports.read = get_all_mobiles;
+exports.read = get_all_cars;
