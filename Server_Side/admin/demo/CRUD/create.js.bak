@@ -153,7 +153,7 @@ function populateVehicleProperty(barcode, ownerId, propertyName, propertyValue) 
 }
 
 function populateVehicle(barcode, mobile) {
-    console.log('[#] Populating product');
+    console.log('[#] Populating Vehicle');
     let result = Promise.resolve();
     for(let propertyName in mobile) {
         let normalisedPropertyName = propertyName.toLowerCase();
@@ -168,7 +168,7 @@ function populateVehicle(barcode, mobile) {
 }
 
 function transferVehicle(barcode, seller, buyer, functionName) {
-    console.log('[#] Transfering Product to ' + buyer);
+    console.log('[#] Transfering Vehicle to ' + buyer);
     return vehicleData.transfer(seller, buyer, functionName, barcode);
 }
 
