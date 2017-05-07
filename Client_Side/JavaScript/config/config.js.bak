@@ -70,33 +70,33 @@ config.participants.users.regulators[0].user = 'Ronald';
 
 // Manufacturers
 config.participants.users.manufacturers[0] = {};
-config.participants.users.manufacturers[0].company = 'Samsung';
+config.participants.users.manufacturers[0].company = 'Alfa Romeo';
 config.participants.users.manufacturers[0].type = 'Manufacturer';
 config.participants.users.manufacturers[0].user = 'Martin';
 
 config.participants.users.manufacturers[1] = {};
-config.participants.users.manufacturers[1].company = 'Apple';
+config.participants.users.manufacturers[1].company = 'Toyota';
 config.participants.users.manufacturers[1].type = 'Manufacturer';
 config.participants.users.manufacturers[1].user = 'Maria';
 
 config.participants.users.manufacturers[2] = {};
-config.participants.users.manufacturers[2].company = 'Motorola';
+config.participants.users.manufacturers[2].company = 'Jaguar Land Rover';
 config.participants.users.manufacturers[2].type = 'Manufacturer';
 config.participants.users.manufacturers[2].user = 'Mandy';
 
 // Dealerships
 config.participants.users.dealerships[0] = {};
-config.participants.users.dealerships[0].company = 'BestBuy';
+config.participants.users.dealerships[0].company = 'Beechvale Group';
 config.participants.users.dealerships[0].type = 'Dealership';
 config.participants.users.dealerships[0].user = 'Deborah';
 
 config.participants.users.dealerships[1] = {};
-config.participants.users.dealerships[1].company = 'Target';
+config.participants.users.dealerships[1].company = 'Milescape';
 config.participants.users.dealerships[1].type = 'Dealership';
 config.participants.users.dealerships[1].user = 'Dennis';
 
 config.participants.users.dealerships[2] = {};
-config.participants.users.dealerships[2].company = 'Walmart';
+config.participants.users.dealerships[2].company = 'Viewers Alfa Romeo';
 config.participants.users.dealerships[2].type = 'Dealership';
 config.participants.users.dealerships[2].user = 'Delia';
 

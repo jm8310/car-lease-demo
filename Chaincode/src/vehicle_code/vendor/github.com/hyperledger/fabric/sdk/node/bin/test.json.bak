@@ -1,7 +1,7 @@
 {
   "memberServicesUrl": "grpcs://21e78ff401c541688adf56a5fbd8c1ab-ca.us.blockchain.ibm.com:30004",
   "peers": [ "grpcs://21e78ff401c541688adf56a5fbd8c1ab-vp0.us.blockchain.ibm.com:30004" ],
-  "registrar": { "name": "WebAppAdmin", "secret": "4ac109f340" },
+  "registrar": { "name": "WebAppAdmin", "secret": "DJY27pEnl16d" },
   "numUsers": 5,
   "iterations": 10,
   "tests": [
